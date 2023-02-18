@@ -2,6 +2,7 @@
 Create a generator class to produce random numbers
 """
 
+
 import random
 
 
