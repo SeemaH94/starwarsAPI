@@ -16,14 +16,14 @@
 
 # resource classes
 from resources.films import Film
-from resources.characters import Character
+from resources.charectors import Character
 from resources.planets import Planet
 from resources.species import Species
 from resources.starships import Starship
 from resources.vehicles import Vehicle
 
 # pydantic classes (models)
-from models.datamodels.characters import Character_
+from models.datamodels.charectors import Character_
 from models.datamodels.films import Film_
 from models.datamodels.planets import Planet_
 from models.datamodels.starships import Starship_
@@ -33,8 +33,8 @@ from models.datamodels.species import Species_
 
 if __name__ == "__main__":
 
-    character_data = Character().get_sample_data()
-    character_data = Character_(**character_data)
+    charector_data = Character().get_sample_data()
+    charector_data = Character_(**charector_data)
 
     film_data = Film().get_sample_data()
     film_data = Film_(**film_data)
